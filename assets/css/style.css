@@ -50,7 +50,7 @@
     text-decoration: none;
     font-size: 17px;
     margin-left: 210px;
-    margin-right: 31%;
+    margin-right: ;
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -58,7 +58,7 @@
 
 img {
     padding-right: 25px;
-    width: 200px;
+    width: 250px;
 }
 
 body {
@@ -68,12 +68,13 @@ body {
 #container {
     width: 68%;
     background:#ffffff;
-    overflow: auto;
+    overflow: hidden;
     margin-top: 130px;
     margin-bottom: 120px;
     margin-left: 210px;
     padding-left: 30px;
-    padding-right: 30px; 
+    padding-right: 30px;
+    padding-bottom: 50px; 
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
@@ -118,4 +119,26 @@ span{
 
 .footer:after{
     content:"Copyright \00a9";
+}
+
+.picFormat {
+    float: left;
+    padding-top: 20px;
+    padding-left: 15px;
+    
+}
+
+.picTitle {
+    position: relative;
+    background-color: #4aaaa5; 
+    margin-top: 200px;
+    color: black;
+    height: 40px;
+    width: 250px; 
+}
+
+.picTitle p{
+    position: absolute;
+    text-align: center;
+    width: 100%; 
 }

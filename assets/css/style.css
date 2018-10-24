@@ -9,6 +9,7 @@
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
     border-bottom-width: 2px;
+    z-index: 1;
     
 }
 
@@ -48,9 +49,9 @@
     padding-left: 30px;
     padding-right: 30px; 
     text-decoration: none;
-    font-size: 17px;
-    margin-left: 210px;
-    margin-right: ;
+    font-size: 18px;
+    margin-left: 18%;
+    margin-right: 22%;
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -66,14 +67,15 @@ body {
 }
 
 #container {
-    width: 68%;
+    /*width: 68%;*/
     background:#ffffff;
     overflow: hidden;
     margin-top: 130px;
     margin-bottom: 120px;
-    margin-left: 210px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 18%;/*210px;*/
+    margin-right: 18%;
+    padding-left: 35px;
+    padding-right: 35px;
     padding-bottom: 50px; 
     border-style: solid;
     border-color: #dddddd;
@@ -124,21 +126,30 @@ span{
 .picFormat {
     float: left;
     padding-top: 20px;
-    padding-left: 15px;
-    
+    padding-left: 0px;
 }
 
 .picTitle {
     position: relative;
     background-color: #4aaaa5; 
-    margin-top: 200px;
+    margin-top: 144px;
+    margin-right: 40px;
+    margin-bottom: 45px;
     color: black;
     height: 40px;
-    width: 250px; 
+    width: 270px; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    padding-bottom: 5px;
 }
 
 .picTitle p{
     position: absolute;
     text-align: center;
     width: 100%; 
+}
+
+img {
+    height: 200px;
+    width: 270px;
 }
